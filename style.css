@@ -319,7 +319,13 @@ input:checked + .slider::before {
   
 
   .social-icons i {
-    width: 50%;
+    width: 20%;
+  }
+  .fab {
+    font-size: 40px;
+    margin: 10px;
+    cursor: pointer;
+    color: var(--primary-color);
   }
   nav {
     z-index: 10;
